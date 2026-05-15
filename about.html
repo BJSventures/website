@@ -3,48 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About — Your Name</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>About &mdash;Benjamin</title>
+  <style>
+    body { max-width: 680px; margin: 40px auto; padding: 0 20px; font-family: Georgia, serif; line-height: 1.7; }
+    nav { display: flex; gap: 20px; margin-bottom: 40px; padding-bottom: 12px; border-bottom: 1px solid #ccc; }
+    nav a { text-decoration: none; color: #333; font-family: monospace; font-size: 0.9em; }
+    nav a:hover { text-decoration: underline; }
+    nav a.active { font-weight: bold; color: #000; }
+  </style>
 </head>
 <body>
   <nav>
-    <a class="name" href="index.html">Your Name</a>
-    <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="about.html" class="active">about</a></li>
-      <li><a href="projects.html">projects</a></li>
-      <li><a href="contact.html">contact</a></li>
-    </ul>
+    <a href="index.html">home</a>
+    <a href="about.html" class="active">about</a>
+    <a href="projects.html">projects</a>
+    <a href="contact.html">contact</a>
   </nav>
 
-  <main>
-    <h1>About</h1>
+  <h1>About</h1>
 
-    <p>
-      A paragraph about your background — where you're from,
-      what you studied, or what path brought you here.
-    </p>
+  <p>
+    I study Mathematics and Computer Science at McGill in the Honours stream.
+    My academic focus is at the intersection of probability, optimization, and machine learning,
+    which maps pretty naturally onto the problems I find interesting in finance.
+  </p>
 
-    <p>
-      What you're interested in or working on now. Keep the
-      tone conversational — this isn't a CV.
-    </p>
+  <p>
+    I spent time at my internships doing quantitative research and software development. Both gave me different angles on how research ideas
+    actually make it into production, which I think about a lot.
+  </p>
 
-    <h2>Background</h2>
-    <p>
-      More detail if needed — experience, education, or anything
-      worth context. Or cut this section if the above is enough.
-    </p>
+  <p>
+    Before any of this, I worked as a professional chef in some of the better kitchens in Canada.
+    That's not a non-sequitur. Cooking at a high level teaches you something real about
+    working under pressure, caring about craft, and knowing when something isn't good enough yet.
+  </p>
 
-    <h2>Outside work</h2>
-    <p>
-      The things you do that aren't on a resume. Optional,
-      but it makes the page feel human.
-    </p>
-  </main>
+  <p>
+    I train MMA and play hockey. I ski when I get the chance.
+    I read philosophy mostly for pleasure, Camus and Wittgenstein in particular.
+    I'm serious about music in a way that's hard to explain briefly.
+  </p>
 
-  <footer>
-    &copy; 2025 Your Name
-  </footer>
+  <hr>
+  <p style="font-family: monospace; font-size: 0.8em; color: #888;">&copy; 2025 Benjamin</p>
 </body>
 </html>

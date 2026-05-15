@@ -3,49 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact — Your Name</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Contact &mdash; Charles Benjamin</title>
+  <style>
+    body { max-width: 680px; margin: 40px auto; padding: 0 20px; font-family: Georgia, serif; line-height: 1.7; }
+    nav { display: flex; gap: 20px; margin-bottom: 40px; padding-bottom: 12px; border-bottom: 1px solid #ccc; }
+    nav a { text-decoration: none; color: #333; font-family: monospace; font-size: 0.9em; }
+    nav a:hover { text-decoration: underline; }
+    nav a.active { font-weight: bold; color: #000; }
+  </style>
 </head>
 <body>
   <nav>
-    <a class="name" href="index.html">Your Name</a>
-    <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="about.html">about</a></li>
-      <li><a href="projects.html">projects</a></li>
-      <li><a href="contact.html" class="active">contact</a></li>
-    </ul>
+    <a href="index.html">home</a>
+    <a href="about.html">about</a>
+    <a href="projects.html">projects</a>
+    <a href="contact.html" class="active">contact</a>
   </nav>
 
-  <main>
-    <h1>Contact</h1>
+  <h1>Contact</h1>
 
-    <p>The best ways to reach me.</p>
+  <p>Best ways to reach me:</p>
 
-    <div style="margin-top: 2rem;">
+  <p>
+    Email: <a href="mailto:benjamin.jsauve@gmail.com">benjamin.jsauve@gmail.com</a><br>
+    GitHub: <a href="https://github.com/BJSventures">github.com/BJSventures</a><br>
+    LinkedIn: <a href="https://www.linkedin.com/in/benjamin-sauv%C3%A9-8a37502b9/">linkedin.com/in/benjamin-sauv%C3%A9-8a37502b9/</a>
+  </p>
 
-      <div class="contact-line">
-        <span class="label">email</span>
-        <a href="mailto:you@email.com">you@email.com</a>
-      </div>
-
-      <div class="contact-line">
-        <span class="label">github</span>
-        <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
-      </div>
-
-      <div class="contact-line">
-        <span class="label">linkedin</span>
-        <a href="https://linkedin.com/in/yourhandle" target="_blank">linkedin.com/in/yourhandle</a>
-      </div>
-
-      <!-- Add or remove rows as needed -->
-
-    </div>
-  </main>
-
-  <footer>
-    &copy; 2025 Your Name
-  </footer>
+  <hr>
+  <p style="font-family: monospace; font-size: 0.8em; color: #888;">&copy; 2025 Benjamin</p>
 </body>
 </html>
